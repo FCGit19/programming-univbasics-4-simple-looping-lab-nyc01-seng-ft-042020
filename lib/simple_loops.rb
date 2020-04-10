@@ -66,3 +66,11 @@ def return_string_array(array)
 
   new_array
 end 
+
+
+def return_string_array(array)
+ 
+  array.map { |element| element.to_s }
+
+  new_array
+end 
