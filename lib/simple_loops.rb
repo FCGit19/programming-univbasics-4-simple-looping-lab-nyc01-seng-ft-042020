@@ -72,5 +72,5 @@ def return_string_array(array)
  
   array.map { |element| element.to_s }
 
-  new_array
+  array
 end 
