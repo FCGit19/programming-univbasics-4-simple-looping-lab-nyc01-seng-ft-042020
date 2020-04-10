@@ -70,7 +70,7 @@ end
 
 def return_string_array(array)
  
-  array.map { |element| element.to_s }
+  array.map { |element, new_array| element.to_s }
 
-  array
+  new_array
 end 
