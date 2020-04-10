@@ -56,8 +56,7 @@ end
 # end 
 
 # using {} allows you to NOT use do statement AND the end statement 
-# another solution would be to use .map or .collect and w/in the curly braces, don't use push, but still convert to string.
-# this is b/c .map and .collect return a new array, while .each returns the original array 
+
 
 # def return_string_array(array)
 #   new_array = []
@@ -67,10 +66,11 @@ end
 #   new_array
 # end 
 
+# another solution would be to use .map or .collect and w/in the curly braces, don't use push, but still convert to string.
+# this is b/c .map and .collect return a new array, while .each returns the original array 
 
 def return_string_array(array)
  
   array.map { |element| element.to_s }
-
   
 end 
